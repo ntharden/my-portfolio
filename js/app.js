@@ -104,9 +104,3 @@ function changeFavicon(isDark) {
     : favicon.setAttribute("href", "../assets/rebelAlliance.png")
 }
 
-function openResume() {
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = "../assets/Resume.pdf";
-  link.dispatchEvent(new MouseEvent('click'));
-}
