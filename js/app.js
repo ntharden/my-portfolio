@@ -43,12 +43,11 @@ const isDark = body.className === "dark"
 const favicon = document.querySelector("#favicon")
 const resumeBtn = document.getElementById("resume")
 
-console.log(resumeBtn)
 
 // event listeners -------------------------------------------------------------------------------------
 
 lightDarkBtn.addEventListener("click", toggleLightDark)
-resumeBtn.addEventListener("click", openResume)
+// resumeBtn.addEventListener("click", openResume)
 
 
 // functions -------------------------------------------------------------------------------------
@@ -61,6 +60,8 @@ let project = {
   github: "https://github.com/ntharden/ttt-weekend",
   description: "Battle between X's and O's"
 }
+
+console.log(project)
 
 let projectMarkup = projectData.map(project =>
   `

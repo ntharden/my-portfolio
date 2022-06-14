@@ -5,12 +5,14 @@
   }
 }
 
+nav {
+  --body-bg: #e5e5e5;
+  --btn-text-color: #fca311;
+}
+
 body {
   --body-bg: #e5e5e5;
   --btn-text-color: #fca311;
-  /* --card-text-color: #3e3e3e; */
-  /* --header-bg: #e5e5e5; */
-  /* --header-text-color: #fca311; */
   --inverted-btn-text-color: #fca311;
   --light-dark-btn-bg: #000000;
   --light-dark-btn-content: "Dark Mode";
@@ -25,9 +27,6 @@ body {
 body.dark {
   --body-bg: #22232b;
   --btn-text-color: #eaeaea;
-  /* --card-text-color: #dedede; */
-  /* --header-bg: #005e9d; */
-  /* --header-text-color: #d8d8d8; */
   --inverted-btn-text-color: #e5e5e5;
   --light-dark-btn-bg: #fca311;
   --light-dark-btn-content: "Light Mode";
@@ -52,9 +51,6 @@ h1 {
   font-size: 24px;
   font-weight: 600;
 }
-
-
-
 
 #light-dark-button {
   background-color: var(--light-dark-btn-bg);
