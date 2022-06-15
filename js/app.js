@@ -100,7 +100,7 @@ checkDarkPref()
 
 function changeFavicon(isDark) {
   isDark
-    ? favicon.setAttribute("href", "../assets/empire.png") 
-    : favicon.setAttribute("href", "../assets/rebelAlliance.png")
+    ? favicon.setAttribute("href", "../assets/ninja.png") 
+    : favicon.setAttribute("href", "../assets/ninja2.png")
 }
 
