@@ -69,6 +69,16 @@ h1 {
   color: #736868;
 }
 
-.links {
-  
+p {
+  margin: 0 64px 32px;
+}
+
+.links-div img {
+  height: 64px;
+  border-radius: 50%;
+}
+
+.navbar img {
+  border-radius: 16px;
+  margin-right: 16px;
 }
