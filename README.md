@@ -9,7 +9,7 @@ This app is a portfolio website that will display dev work as well as provide in
   - Contact page
   - Resume page
 
-	![Screenshot](screenshot.jpg)
+	![Screenshot](/assets/screenshot.jpeg.jpg)
 
 ## Technologies Used
 
@@ -29,5 +29,5 @@ This app is a portfolio website that will display dev work as well as provide in
 
 ## Links:
 
-••[Trello](https://trello.com/b/3hBbVdG8/portfolio)••
-••[Deployed](https://resplendent-strudel-c82749.netlify.app)••gith
+**[Trello (Planning)](https://trello.com/b/3hBbVdG8/portfolio)**
+**[Deployment](https://resplendent-strudel-c82749.netlify.app)**
