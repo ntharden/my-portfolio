@@ -1,14 +1,33 @@
 # Nathan Hardenburg Portfolio
 
-This repo has the code for a portfolio website that will display dev work as well as provide information about myself for potential clients/employers to look at.
+This app is a portfolio website that will display dev work as well as provide information about myself for potential clients/employers to look at.
 
-#### Contents
-  -index landing page
-  -about page
-  -work page
-  -contact page
-  -resume page
+### Contents
+  - Index landing page
+  - About page
+  - Work page
+  - Contact page
+  - Resume page
 
+	![Screenshot](screenshot.jpg)
 
-## Links
+## Technologies Used
 
+  - HTML
+  - CSS
+  - JavaScript
+  - Bootstrap
+
+## Next Steps
+
+  - Improve stylying for viewability and show CSS/Bootstrap proficiency
+  - Add a way to download resume
+  - Fill with more content
+  - Add more animation
+
+### [This portfolio and README are #goals for mine.](https://github.com/berylrb/beryl-baldwin-portfolio)
+
+## Links:
+
+••[Trello](https://trello.com/b/3hBbVdG8/portfolio)••
+••[Deployed](https://resplendent-strudel-c82749.netlify.app)••gith
