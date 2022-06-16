@@ -78,12 +78,19 @@ p {
   margin-right: 16px;
 }
 
-#homePhoto {
+#index-photo {
   display: flex;
   justify-content: center;
-  margin-top: 128px;
+  margin: 128px;
 }
 
 .navbar-brand {
   color: #D97236;
+}
+
+#about-photos {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px;
+  border-radius: 32px;
 }
