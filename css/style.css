@@ -5,11 +5,6 @@
   }
 }
 
-.navbar navbar-expand-lg navbar-light bg-light{
-  --body-bg: #e5e5e5;
-  --btn-text-color: #fca311;
-}
-
 body {
   --body-bg: #8A97BF;
   --btn-text-color: #F2A88D;
@@ -83,3 +78,12 @@ p {
   margin-right: 16px;
 }
 
+#homePhoto {
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+
+.navbar-brand {
+  color: #D97236;
+}
