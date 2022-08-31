@@ -47,7 +47,7 @@ body {
 .home-overlay {
   left: 50%;
   position: absolute;
-  top: 30%;
+  top: 20%;
   transform: translate(-50%);
   text-align: center;
   background-color: #f2f2f2a7;
