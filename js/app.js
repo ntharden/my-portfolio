@@ -79,7 +79,7 @@ let projectMarkup = projectData.map(project =>
   `
 ).join("")
 
-// cardContainer.innerHTML = projectMarkup
+cardContainer.innerHTML = projectMarkup
 
 function toggleLightDark() {
   body.className = body.className === "dark" ? "" : "dark"

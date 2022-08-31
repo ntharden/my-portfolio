@@ -12,6 +12,13 @@ let projectData = [
     image: "/assets/rest-tracker.png",
     github: "https://github.com/ntharden/restaurant-tracker",
     description: "Track your favorite restaurants"
+  },
+  {
+    title: "Restaurant Tracker",
+    deployment: "https://restaurant-tracker-ga.herokuapp.com/restaurants",
+    image: "/assets/rest-tracker.png",
+    github: "https://github.com/ntharden/restaurant-tracker",
+    description: "Track your favorite restaurants"
   }
 ]
 
