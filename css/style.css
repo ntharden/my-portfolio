@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  color: #003153;
+  color: #121212;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,10 +21,11 @@ body {
 
 .navbar{
   height: 5rem;
+  background-color: #080808;
 }
 
 .navbar-brand {
-  color: #f8f8ff;
+  color: #F2F2F2;
   font-weight: 500;
   font-size: 1.25rem;
   margin-right: 2rem;
@@ -32,16 +33,9 @@ body {
 }
 
 .scrolling-active {
-  background-color: #bcd4e6;
+  background-color: #AAAAAA;
   transition: 1000ms;
   height: 3.5rem
-}
-
-
-.scrolling-active .navbar-brand{
-  color: #003366;
-  font-weight: 500;
-  font-size: 1.25rem;
 }
 
 .background-img {
@@ -53,10 +47,10 @@ body {
 .home-overlay {
   left: 50%;
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translate(-50%);
   text-align: center;
-  background-color: rgba(5, 58, 96, 0.688);
+  background-color: #bdbdbd80;
   width: 50vw;
   padding-bottom: 30px;
   border-radius: 10px;
@@ -65,13 +59,13 @@ body {
 .name {
   margin: 20px auto 0 auto;
   font-size: 4rem;
-  color: white;
+  color: #121212;
 }
 
 .description {
   margin-top: 0;
   font-size: 1.5em;
-  color: white
+  color: #121212;
 }
 
 .about {
@@ -96,7 +90,7 @@ body {
 .bio {
   font-size: 1.25rem;
   padding-top: 50px;
-  color: #536872;
+  color: #080808;
 }
 
 .work {
@@ -104,7 +98,7 @@ body {
   padding-top: 50px;
   padding-left: 70px;
   padding-right: 70px;
-  background-color: rgba(220, 220, 220, 0.3);
+  background-color: #bdbdbd80;
 }
 
 .work-title {
@@ -125,7 +119,7 @@ body {
 }
 
 #card-container {
-  color: #736868;
+  color: #080808;
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;

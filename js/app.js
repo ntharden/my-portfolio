@@ -1,55 +1,7 @@
-// // The portfolio must be built with HTML, CSS, and JavaScript.
-// // The portfolio must have the following sections: About, Contact, Resume, Work
-// // In the Work section, data for portfolio pieces must be imported from an external JS
-// // data file
-// // The portfolio must contain a link to the deployed Tic-Tac-Toe application built in// 
-// // class
-// // The portfolio must be grammatically correct and be free of spelling errors
-// The portfolio contains at least 3 points of interaction for the user (e.g. the user clicks
-// and something happens) written from scratch in JavaScript without the use of 3rd
-// party libraries
-// // Displays a favicon
-// // The portfolio must utilize responsive design
-// The portfolio looks and feels similar to apps we use daily - it has a consistent and
-// polished user interface and offers a positive user experience, including accessibility
-// features
-// The portfolio must be coded using proper indentation
-// The portfolio must be coded using variable names that make sense and follow the
-// conventions you've been taught (for example: arrays are always named using
-// plurals)
-
-// A functioning portfolio app that meets or exceeds the above technical requirements,
-// built by you, and deployed to the internet
-// The GitHub repository used for the project is named appropriately (e.g. portfolio as
-// opposed to unit-1-project) and is publicly accessible
-// Frequent commits dating back to the very beginning of the project
-// Commit messages should be in the present tense
-
-// constants -------------------------------------------------------------------------------------
-
-
-
-// variables -------------------------------------------------------------------------------------
-
-
-// cached elements -------------------------------------------------------------------------------------
-
 import { projectData } from "./project-data.js";
 
+
 const cardContainer = document.getElementById("card-container")
-const body = document.querySelector("body")
-const favicon = document.querySelector("#favicon")
-const resumeBtn = document.getElementById("resume")
-
-
-// event listeners -------------------------------------------------------------------------------------
-
-
-// resumeBtn.addEventListener("click", openResume)
-
-
-// functions -------------------------------------------------------------------------------------
-
 
 let project = {
   title: "Tic Tac Toe",
