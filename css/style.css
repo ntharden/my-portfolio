@@ -19,6 +19,17 @@ body {
   margin: 0;
 }
 
+.home {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.background-img {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 body.dark {
   --body-bg: #D97236;
   --btn-text-color: #D9C5C1;
