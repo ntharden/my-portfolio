@@ -1,27 +1,47 @@
-@media only screen and (min-width: 768px) {
-  .card{
-    width: 325px;
-    margin: 30px 15px 0;
-  }
+
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
-  --btn-text-color: #F2A88D;
-  --inverted-btn-text-color: #D9C5C1;
-  --light-dark-btn-bg: #D97236;
-  --light-dark-btn-content: "Toggle";
-  color: #e5e5e5;
-  background-color: var(--body-bg);
-  display: flex;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  flex-direction: column;
-  margin: 0;
+  color: #003153;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home {
   margin: 0;
   min-height: 100vh;
+}
+
+.navbar{
+  height: 5rem;
+}
+
+.navbar-brand {
+  color: #f8f8ff;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.scrolling-active {
+  background-color: #bcd4e6;
+  transition: 1000ms;
+  height: 3.5rem
+}
+
+
+.scrolling-active .navbar-brand{
+  color: #003366;
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 .background-img {
@@ -30,77 +50,102 @@ body {
   background-attachment: fixed;
 }
 
-body.dark {
-  --body-bg: #D97236;
-  --btn-text-color: #D9C5C1;
-  --inverted-btn-text-color: #736868;
-  --light-dark-btn-bg: #8A97BF;
-  color: #eaeaea;
-  --light-dark-btn-content: "Toggle";
-  background-color: var(--body-bg);
-}
-
-h1 {
-  background-color: var(--header-bg);
-  font-family: var(--serif);
-  font-size: 48px;
-  font-weight: 700;
-  margin: 12px 0;
-  padding: 12px;
+.home-overlay {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
   text-align: center;
-  width: 100%;
+  background-color: rgba(5, 58, 96, 0.688);
+  width: 50vw;
+  padding-bottom: 30px;
+  border-radius: 10px;
 }
 
-.btn {
-  border: none;
-  color: var(--btn-text-color);
-  font-family: var(--cursive);
-  font-size: 24px;
-  font-weight: 600;
+.name {
+  margin: 20px auto 0 auto;
+  font-size: 4rem;
+  color: white;
 }
 
-#light-dark-button {
-  background-color: var(--light-dark-btn-bg);
-  background-image: var(--light-dark-btn-bg);
+.description {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: white
 }
 
-#light-dark-button::after {
-  border: none;
-  color: var(--inverted-btn-text-color);
-  content: var(--light-dark-btn-content);
+.about {
+  min-height: 100vh;
+  padding-top: 200px;
+}
+
+#profile {
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.about-me {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about-me-title {
+  font-size: 50px;
+}
+
+.bio {
+  font-size: 1.25rem;
+  padding-top: 50px;
+  color: #536872;
+}
+
+.work {
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgba(220, 220, 220, 0.3);
+}
+
+.work-title {
+  text-align: left;
+}
+
+.work-heading {
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.work-content {
+  margin-top: 70px;
+}
+
+.card {
+  height: 350px;
 }
 
 #card-container {
   color: #736868;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
 }
 
-p {
-  margin: 0 64px 32px;
+.skills {
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-.links-div img {
-  height: 64px;
-  border-radius: 50%;
+.skills-heading {
+  font-size: 50px;
+  padding-top: 50px;
 }
 
-.navbar img {
-  border-radius: 16px;
-  margin-right: 16px;
-}
-
-#index-photo {
-  display: flex;
-  justify-content: center;
-  margin: 128px;
-}
-
-.navbar-brand {
-  color: #D97236;
-}
-
-#about-photos {
-  display: flex;
-  justify-content: space-around;
-  margin: 32px;
-  border-radius: 32px;
+@media only screen and (min-width: 768px) {
+  .card{
+    width: 325px;
+    margin: 30px 15px 0;
+  }
 }

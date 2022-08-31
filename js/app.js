@@ -37,16 +37,14 @@
 import { projectData } from "./project-data.js";
 
 const cardContainer = document.getElementById("card-container")
-const lightDarkBtn = document.getElementById("light-dark-button")
 const body = document.querySelector("body")
-const isDark = body.className === "dark"
 const favicon = document.querySelector("#favicon")
 const resumeBtn = document.getElementById("resume")
 
 
 // event listeners -------------------------------------------------------------------------------------
 
-// lightDarkBtn.addEventListener("click", toggleLightDark)
+
 // resumeBtn.addEventListener("click", openResume)
 
 
@@ -80,27 +78,3 @@ let projectMarkup = projectData.map(project =>
 ).join("")
 
 cardContainer.innerHTML = projectMarkup
-
-function toggleLightDark() {
-  body.className = body.className === "dark" ? "" : "dark"
-  const isDark = body.className === "dark"
-  changeFavicon(isDark)
-}
-
-function checkDarkPref() {
-  if (
-    window.matchMedia("(prefers-color-scheme:dark)").matches &&
-    body.className !== "dark"
-  ) {
-    toggleLightDark()
-  }
-}
-
-checkDarkPref()
-
-function changeFavicon(isDark) {
-  isDark
-    ? favicon.setAttribute("href", "../assets/ninja.png") 
-    : favicon.setAttribute("href", "../assets/ninja2.png")
-}
-
